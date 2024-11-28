@@ -1,0 +1,101 @@
+.h1LoginRegister {
+    font-size: 5rem;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 2rem;
+}
+
+.h1LoginRegister .chat {
+    position: relative;
+    animation: fadeIn 1s;
+}
+
+.h1LoginRegister .app {
+    position: relative;
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    from {
+        top: 80px;
+        opacity: 0;
+    }
+
+    to {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+.header-p {
+    position: relative;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 300;
+    margin: 0.8rem;
+    animation: fadeIn 2s;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formLoginRegister {
+    position: relative;
+    background-color: white;
+    width: 50%;
+    margin-top: 2rem;
+    animation: fadeIn 2s;
+}
+
+.formLoginRegister h3 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 2rem;
+}
+
+.formLoginRegister .input-container {
+    display: flex;
+    justify-content: center;
+}
+
+.formLoginRegister .input-container div {
+    width: 90%;
+    padding: 1rem;
+}
+
+.formLoginRegister .input-container div input {
+    width: 100%;
+    margin: .5em 0;
+    padding: .5rem;
+    font-size: 1rem;
+    border: 1px solid black;
+}
+
+.formLoginRegister .input-container div p a {
+    text-decoration: none;
+    font-style: italic;
+    color: #00FFCC;
+}
+
+.formLoginRegister .button {
+    text-align: end;
+}
+
+.formLoginRegister .button button {
+    margin: 2rem 1rem;
+    font-size: 1.2rem;
+    padding: .5rem 1rem;
+    border-radius: 50px;
+    background-color: #00FFCC;
+    border: none;
+    cursor: pointer;
+    transition: transform .3s;
+}
+
+.formLoginRegister .button button:hover {
+    transform: scale(1.1);
+}
