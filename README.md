@@ -1,2 +1,2 @@
 # ChatApp
-Portflolio for real time chat web application
+Portflolio for real time chat web application using React and Node
